@@ -1,0 +1,130 @@
+*{
+  margin:0px;
+  padding:0;
+  text-transform: capitalize;
+  letter-spacing:0.1em;
+}
+.form
+{
+  width: 50%;
+  margin-left: 400px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  text-align:left;
+  text-decoration-color: black;
+  color: black;
+  font-family:sans-serif,serif;
+  font-size: 16px;
+}
+p
+{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+input
+{
+    font-size: 16px;
+}
+h3
+{
+        margin-left: 170px;
+}
+
+
+
+
+
+label
+{
+	padding-bottom:10px;
+	padding-top: 25px;
+	display: block;
+}
+input,textarea
+{
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  width:100%;
+}
+
+input[type="submit"]{
+  margin-top:25px;
+  width:100%;
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  letter-spacing: 1px;
+}
+input[type="submit"]:hover
+{
+    background-color:#c0c0c0;
+}
+
+
+h3
+{
+    margin-left: 170px;
+}
+
+textarea
+{
+    width: 100%;
+}
+
+button[type="submit"]{
+  margin-top:25px;
+  width:100%;
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  letter-spacing: 1px;
+}
+button[type="submit"]:hover
+{
+    background-color:#c0c0c0;
+}
+
+@media screen and (max-width:784px){
+  form{
+    width:80%;
+    text-align: center;
+    padding-bottom:150px;
+    font-size:16px;
+  }
+  h3{
+    font-size:18px;
+    margin-left:0;
+    text-align:left;
+  }
+  label{
+    text-align: left;
+  }
+ form h4{
+   font-size:18px;
+   text-align: left!important;
+   margin-left:0;
+ }
+ form h6{
+   font-size:15px;
+   text-align: left!important;
+   margin-left:0;
+ }
+ .p2{
+   font-size:14px;
+   text-align:left;
+ }
+ .p3 {
+   width:470px;
+   position:relative;
+   left:-280px;
+ }
+ .app{
+  position:absolute;
+  left:400px;
+ }
+}

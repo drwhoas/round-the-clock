@@ -1,0 +1,165 @@
+*{
+  padding:0;
+  margin:0px;
+  letter-spacing: 1px;
+}
+
+
+form
+{
+  width: 50%;
+  margin-left: 400px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  text-align:left;
+  text-decoration-color: black;
+  color: black;
+  font-family:sans-serif,serif;
+  font-size: 20px;
+
+
+}
+input[type="radio"]{
+  margin-right:200px;
+}
+
+
+label
+{
+  padding-bottom:10px;
+  padding-top: 25px;
+  display: block;
+    font-size: 16px;
+}
+input,textarea
+{
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  width:100%;
+}
+select{
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  width:100%;
+}
+
+input[type="submit"]{
+  margin-top:25px;
+  width:100%;
+  box-sizing: border-box;
+  border-radius:0px;
+  padding:5px;
+  border:2px solid #c0c0c0;
+  letter-spacing: 1px;
+}
+input[type="submit"]:hover
+{
+    background-color:#c0c0c0;
+}
+
+
+h3
+{
+    margin-left: 170px;
+}
+
+table.b {
+  table-layout: fixed;
+  width: 200px;
+}
+td
+{
+  vertical-align:top;
+}
+textarea
+{
+    width: 100%;
+}
+.p2{
+  font-size:16px;
+  margin-left:400px;
+  margin-top:100px;
+  letter-spacing: 1px;
+
+}
+.p2 a,.p3 a{
+
+
+  text-decoration: none;
+  color:gray;
+  display: block;
+  margin-top: 20px;
+
+}
+.p2 a:hover, .p3 a:hover{
+  color:#606060;
+}
+.app{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 30px;
+}
+.p3 {
+  margin-top:20px;
+  letter-spacing: 1px;
+  font-size:16px;
+  width:2100px;
+  text-align: left;
+
+}
+@media screen and (max-width:784px){
+  form{
+    width:35%;
+    text-align: center;
+    padding-bottom:150px;
+    margin-top:50px;
+  }
+  h3{
+    font-size:18px;
+    margin-left:0;
+    text-align:left;
+  }
+  label{
+    text-align: left;
+  }
+ form h4{
+   font-size:18px;
+   text-align: left!important;
+   margin-left:0;
+ }
+ form h6{
+   font-size:15px;
+   text-align: left!important;
+   margin-left:0;
+ }
+ .p2{
+   font-size:14px;
+   text-align:left;
+ }
+ .p3 {
+   width:470px;
+   position:relative;
+   left:-280px;
+ }
+  h5{
+   font-size:15px;
+   text-align: left!important;
+   margin-left:0;
+ }
+ .app{
+  position:absolute;
+  left:400px;
+ }
+}
+@media screen and (max-width:1024px){
+  .p3{
+    width:490px;
+    position:relative;
+    left:-200px;
+  }

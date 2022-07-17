@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing:0.1em;
+}
+.center{
+  margin-left: 375px;
+  margin-top: 100px;
+/*    did change*/
+/*    did change*/
+    margin-bottom: 50px;
+
+}
+.center1{
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.center1, .center1 td {
+  border: 3px solid  #cccccc;
+  border-collapse:collapse;
+  padding:15px;
+}
+.color1 {
+  text-align: center;
+  background-color:#e6e6e6;
+}
+p{
+  font-size:20px;
+  padding-bottom:0px;
+  padding-left:335px;
+}
+tr:hover{
+  background-color:#f2f2f2;
+}
+.btn{
+  padding:10px;
+  display: inline-block;
+  border-radius: 0;
+  border:1px solid #f2f2f2;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #1b1b1b	;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.btn:hover{
+  box-shadow: inset 400px 0 0 0 #1b1b1b;
+  color: white;
+}
+.boxi
+{
+    margin-bottom:50px;
+}
+@media screen and (max-width:784px){
+  body{
+    overflow-x:hidden;
+  }
+  .btn{
+     position: relative;
+     bottom:60px;
+     left:-80px;
+  }
+  table , tr,td{
+    position: relative;
+    font-size:10px;
+    margin-left:-90px;
+    bottom:30px;
+  }
+  .center1 ,.center1 td{
+    padding:7px;
+  }
+}
+@media screen and (max-width:1024px){
+  table , tr,td{
+    position: relative;
+    font-size:12px;
+    margin-left:-50px;
+    bottom:30px;
+  }
+  .center1 ,.center1 td{
+    padding:15px;
+  }
+  .btn{
+     position: relative;
+     bottom:60px;
+     left:-50px;
+  }
+}

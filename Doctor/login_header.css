@@ -1,0 +1,58 @@
+
+header{
+  padding-top:5px;
+  min-height:230px;
+  border-bottom:#d9d9d9 4px solid;
+top:0;
+/padding:40px;/
+/background: lightblue;/
+}
+nav {
+  padding-top:30px;
+  height:40px;
+  width:100%;
+/*  position:fixed;*/
+}
+nav a{
+  text-decoration:none;
+  color:#000000;
+  text-transform:uppercase;
+  font-size: 16px;
+  display:inline-block;
+  width: 130px;
+  text-align:center;
+  padding: 10px 0;
+    position: relative;
+}
+
+.navigation li {
+  display: inline;
+  float:right;
+  transition: all .2s ease-in-out;
+}
+
+.navigation li:hover {
+  transform: scale(1.1);
+}
+
+header #branding{
+  float:left;
+}
+
+.pr1,.pr2,.pr3,.pr3,.pr4,.pr5,.pr8,.pr9,.pr10
+{
+    margin-left: 300px;
+    padding-left: 150px;
+
+}
+.pr1
+{
+    padding-top: 150px;
+}
+.pr7,.pr6
+{
+        margin-left: 380px;
+
+        padding-left: 150px;
+    padding-top: 150px;
+}
